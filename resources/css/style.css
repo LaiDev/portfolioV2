@@ -1,0 +1,39 @@
+html
+{
+    font-size: 10px;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-links
+{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.nav-item
+{
+    list-style-type: none;
+}
+
+.nav-item a
+{
+    text-decoration: none;
+    color: white;
+}
+
