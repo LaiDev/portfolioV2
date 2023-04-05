@@ -9,6 +9,8 @@ html
     padding: 0;
 }
 
+/* Nav Bar */
+
 nav
 {
     background-color: rgb(49, 49, 49);
@@ -26,9 +28,14 @@ nav
     
 }
 
-.nav-item
+li
 {
     list-style-type: none;
+}
+
+a
+{
+    text-decoration: none
 }
 
 .nav-item a
@@ -37,3 +44,31 @@ nav
     color: white;
 }
 
+/* Hero */
+
+#hero
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#hero h1
+{
+    font-size: 8rem;
+}
+
+#hero h2
+{
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+.social-links
+{
+    display: flex;
+    gap: 20px;
+}
