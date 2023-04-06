@@ -11,14 +11,23 @@ html
 
 /* Nav Bar */
 
+header
+{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
 nav
 {
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(209, 209, 209);
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
+    border: 2px black solid;
+    
 }
 
 .nav-links
@@ -46,7 +55,7 @@ p
 .nav-item a
 {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 /* Hero */
@@ -97,6 +106,7 @@ main
 
 #skills
 {
+    border: 2px black solid;
     padding: 50px 0;
 }
 
@@ -108,10 +118,11 @@ h3
 .skills-top-header
 {
     border-bottom: 2px black solid;
-    padding: 10px
+    padding: 10px;
 }
 .skills-experience-container
 {
+    padding: 0 25px;
     margin: 50px 0;
     display: flex;
     gap: 50px;
@@ -148,6 +159,11 @@ h3
     justify-content: center;
     width: 33.3%;
     gap: 5px;
+}
+
+.skills-list li:hover
+{
+    box-shadow: -5px 3px;
 }
 
 .experience-item,
