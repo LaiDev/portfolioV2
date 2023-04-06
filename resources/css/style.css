@@ -234,7 +234,8 @@ h4
 
 #hero-wrapper,
 #skills-wrapper,
-#projects-wrapper
+#projects-wrapper,
+#about-wrapper
 {
     margin-bottom: 150px;
 }
@@ -300,6 +301,60 @@ h4
 .project-card-live-link:hover
 {
     box-shadow: -5px 3px;
+}
+
+/* About */
+
+#aboutMe
+{
+    border: 2px black solid;
+    padding-bottom: 50px;
+}
+
+.about-top-header
+{
+    border-bottom: 2px black solid;
+    padding: 10px;
+    background-color: rgb(220, 242, 245);
+}
+
+.about-me-container
+{
+    padding: 0 25px;
+    margin: 50px 0 0;
+}
+
+
+
+.about-me-links
+{
+
+    align-items: center;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.about-me-links a
+{
+    border: 2px black solid;
+    padding: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: black;
+}
+
+.about-me-links a:hover
+{
+    box-shadow: -5px 3px; 
+}
+.about-me-links li
+{
+    width: 25%;
 }
 
 footer
