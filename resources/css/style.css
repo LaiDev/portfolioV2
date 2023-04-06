@@ -95,14 +95,16 @@ h2
     gap: 20px;
 }
 
-/* Main */
+/* This is a wrapper to keep the sections at max 1080px */
 
-main
+.section-wrapper
 {
     max-width: 1080px;
     
     margin: 0 auto;
 }
+
+/* Skills */
 
 #skills
 {
@@ -114,6 +116,10 @@ h3
 {
     font-size: 2.5rem;
 }
+
+/* Skills Section - Skills */
+
+
 
 .skills-top-header
 {
@@ -141,8 +147,6 @@ h3
     margin: 50px 0;
 }
 
-
-
 .skills-list
 {
     display: flex;
@@ -166,6 +170,8 @@ h3
     box-shadow: -5px 3px;
 }
 
+
+/* Skills Section - Experience */
 .experience-item,
 .experience-details
 {
