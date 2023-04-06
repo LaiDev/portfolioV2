@@ -38,6 +38,11 @@ a
     text-decoration: none
 }
 
+p
+{
+    font-size: 1.75rem;
+}
+
 .nav-item a
 {
     text-decoration: none;
@@ -54,6 +59,8 @@ a
 
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding:  0 15px;
 }
 
 #hero h1
@@ -69,6 +76,16 @@ a
 
 .social-links
 {
+    margin-top: 20px;
     display: flex;
     gap: 20px;
+}
+
+/* Main */
+
+main
+{
+    max-width: 1080px;
+    border: 2px red solid;
+    margin: 0 auto;
 }
