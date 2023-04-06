@@ -7,6 +7,7 @@ html
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Nav Bar */
@@ -209,4 +210,58 @@ font-weight: bold;
 h4
 {
     font-size: 2rem;
+}
+
+/* Projects Section */
+
+
+#projects
+{
+    padding: 50px 0;
+}
+
+.projects-container
+
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.project-card
+{
+    border: 2px black solid;
+    padding: 50px 25px;
+    width: 45%;
+}
+
+.project-card-heading
+{
+    margin-bottom: 5px;
+}
+
+
+.project-card-description
+{
+    margin: 25px 0 50px;
+}
+
+.project-card-code-btn, .project-card-live-link
+{
+    border: 1px black solid;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.project-card-code-btn
+{
+    margin-right: 10px;
+}
+
+.project-card-code-btn:hover,
+.project-card-live-link:hover
+{
+    box-shadow: -5px 3px;
 }
