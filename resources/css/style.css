@@ -265,3 +265,16 @@ h4
 {
     box-shadow: -5px 3px;
 }
+
+footer
+{
+    padding: 15px;
+    border: 2px black solid;
+    text-align: center;
+    background-color: rgb(209, 209, 209);
+    margin-top: 50px;
+}
+
+footer a {
+    color: black;
+}
