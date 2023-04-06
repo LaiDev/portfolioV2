@@ -17,6 +17,10 @@ header
     position: fixed;
     width: 100vw;
     top: 0;
+    background-color: rgb(209, 209, 209);
+    border-bottom: 2px black solid;
+
+    
 }
 
 nav
@@ -27,16 +31,20 @@ nav
     padding: 15px;
     color: rgb(0, 0, 0);
     font-size: 2rem;
-    border: 2px black solid;
+    font-weight: bold;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
     
 }
 
 .nav-links
 {
     display: flex;
-    gap: 20px;
-    
+    gap: 50px;   
 }
+
+
 
 li
 {
@@ -57,6 +65,12 @@ p
 {
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+.nav-item a:hover
+{
+    border-bottom: 2px black solid;
+    
 }
 
 /* Hero */
@@ -110,7 +124,7 @@ h2
 #skills
 {
     border: 2px black solid;
-    padding: 50px 0;
+    padding-bottom: 50px;
 }
 
 h3
@@ -126,6 +140,7 @@ h3
 {
     border-bottom: 2px black solid;
     padding: 10px;
+    background-color: rgb(220, 242, 245);
 }
 .skills-experience-container
 {
@@ -212,6 +227,12 @@ h4
     font-size: 2rem;
 }
 
+#skills-wrapper,
+#projects-wrapper
+{
+    margin-bottom: 150px;
+}
+
 /* Projects Section */
 
 
@@ -250,10 +271,15 @@ h4
 
 .project-card-code-btn, .project-card-live-link
 {
-    border: 1px black solid;
+    border: 2px black solid;
     padding: 10px;
     font-size: 1.5rem;
     color: black;
+}
+
+.project-card-code-btn
+{
+    background-color: rgb(220, 242, 245);
 }
 
 .project-card-code-btn
