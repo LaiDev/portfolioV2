@@ -127,13 +127,13 @@ h2
     margin: 0 auto;
 }
 
-/* #hero,
+#hero,
 #skills,
 #projects,
 #aboutMe
 {
     margin: 0 100px;
-} */
+}
 
 /* Skills */
 
@@ -149,9 +149,30 @@ h3
     font-size: 2.5rem;
 }
 
+#hero-wrapper,
+#skills-wrapper,
+#projects-wrapper,
+#about-wrapper
+{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Skills Section - Skills */
 
+#skills-wrapper,
+#aboutMe-wrapper
+{
+    background-color: #f9f9f9;
+}
 
+#skills
+{
+    background-color: white;
+}
 
 .skills-top-header
 {
@@ -250,13 +271,9 @@ h4
     font-size: 2rem;
 }
 
-#hero-wrapper,
-#skills-wrapper,
-#projects-wrapper,
-#about-wrapper
-{
-    margin-bottom: 150px;
-}
+
+
+
 
 /* Projects Section */
 
@@ -336,6 +353,7 @@ h4
 {
     border: 2px black solid;
     padding-bottom: 75px;
+    background-color: white;
 }
 
 .about-top-header
@@ -403,6 +421,20 @@ footer a {
 
 @media screen and (max-width: 1000px)
 {
+    body
+    {
+        background-color: #f9f9f9;
+    }
+
+#hero-wrapper,
+#skills-wrapper,
+#projects-wrapper,
+#about-wrapper
+{
+    margin-bottom: 150px;
+}
+
+
     .skills-experience-container
     {
        flex-direction: column; 
@@ -441,6 +473,13 @@ footer a {
 
 @media screen and (max-width: 800px)
 {
+        #hero-wrapper,
+#skills-wrapper,
+#projects-wrapper,
+#about-wrapper
+{
+    min-height: auto;
+}
 
     .nav-item
     {
