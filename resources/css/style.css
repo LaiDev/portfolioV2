@@ -127,13 +127,13 @@ h2
     margin: 0 auto;
 }
 
-#hero,
+/* #hero,
 #skills,
 #projects,
 #aboutMe
 {
     margin: 0 100px;
-}
+} */
 
 /* Skills */
 
@@ -456,13 +456,14 @@ footer a {
     {
         padding: 0;
     }
-    #hero,
+
+    /* #hero,
     #skills,
     #projects,
     #aboutMe
     {
         margin: 0 50px;
-    }
+    } */
 
     
     .project-card
@@ -492,13 +493,13 @@ footer a {
         justify-content: center;
     }
 
-    #hero,
+   /*  #hero,
     #skills,
     #projects,
     #aboutMe
     {
         margin: 0 10px;
-    }
+    } */
 
     #hero h1
     {
