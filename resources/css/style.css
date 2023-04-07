@@ -42,6 +42,8 @@ nav
 {
     display: flex;
     gap: 50px;   
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -120,8 +122,17 @@ h2
 .section-wrapper
 {
     max-width: 1080px;
+
     
     margin: 0 auto;
+}
+
+#hero,
+#skills,
+#projects,
+#aboutMe
+{
+    margin: 0 100px;
 }
 
 /* Skills */
@@ -130,6 +141,7 @@ h2
 {
     border: 2px black solid;
     padding-bottom: 50px;
+    
 }
 
 h3
@@ -171,6 +183,7 @@ h3
 .skills-list
 {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -182,7 +195,7 @@ h3
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 33.3%;
+    width: 45%;
     gap: 5px;
 }
 
@@ -219,7 +232,12 @@ width: 50%;
 .experience-date,
 .experience-details-position
 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+}
+
+.experience-date
+{
+    font-weight: bold;
 }
 
 .experience-list
@@ -250,6 +268,9 @@ h4
 #projects
 {
     padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .projects-container
@@ -267,6 +288,7 @@ h4
     border: 2px black solid;
     padding: 50px 25px;
     width: 45%;
+
     box-shadow: -3px 8px rgba(0, 0, 0, 0.13);
     background-color: white;
 }
@@ -339,6 +361,12 @@ h4
     display: flex;
     gap: 10px;
     margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.about-me-links li
+{
+    width: 24%;
 }
 
 .about-me-links a
@@ -351,16 +379,14 @@ h4
     justify-content: center;
     gap: 5px;
     color: black;
+    
 }
 
 .about-me-links a:hover
 {
     box-shadow: -5px 3px; 
 }
-.about-me-links li
-{
-    width: 25%;
-}
+
 
 footer
 {
@@ -373,4 +399,141 @@ footer
 
 footer a {
     color: black;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .skills-experience-container
+    {
+       flex-direction: column; 
+      
+    }
+
+    .skills-experience-container p
+    {
+        font-size: 2rem;
+    }
+    
+    .skills-container,
+    .experience-container
+    {
+        width: 100%;
+    }
+
+    .project-card-live-link,
+    .project-card-code-btn
+    {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .project-card-live-link
+    {
+        margin-top: 20px;   
+    }
+
+    .about-me-links li
+    {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+
+    .nav-item
+    {
+        font-size: 1.5rem;
+    }
+
+    .nav-links
+    {
+        gap: 20px;
+    }
+
+    #hero
+    {
+        padding: 0;
+    }
+    #hero,
+    #skills,
+    #projects,
+    #aboutMe
+    {
+        margin: 0 50px;
+    }
+
+    
+    .project-card
+    {
+        width: 100%;
+    }
+    .project-card-live-link,
+    .project-card-code-btn
+    {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+   
+}
+
+@media screen and (max-width: 510px)
+{
+    .nav-logo
+    {
+        display: none;
+    }
+
+    nav
+    {
+        justify-content: center;
+    }
+
+    #hero,
+    #skills,
+    #projects,
+    #aboutMe
+    {
+        margin: 0 10px;
+    }
+
+    #hero h1
+    {
+        font-size: 4rem;
+    }
+
+    #hero h2
+    {
+        font-size: 2.5rem;
+    }
+
+    .skills-list li
+    {
+        width: 100%;
+    }
+
+    .experience-details,
+    .experience-details-position
+    {
+        font-size: 1.2rem;
+    }
+
+    h4
+    {
+        font-size: 2rem;
+    }
+
+    .experience-item
+    {
+        gap: 15px;
+    }
+
+    .about-me-links li
+    {
+        width: 100%;
+    }
+
 }
