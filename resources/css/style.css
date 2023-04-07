@@ -502,13 +502,17 @@ footer a {
 
     #hero h1
     {
-        font-size: 4rem;
+        font-size: 5rem;
     }
+
+  
 
     #hero h2
     {
         font-size: 2.5rem;
     }
+
+  
 
     .skills-list li
     {
