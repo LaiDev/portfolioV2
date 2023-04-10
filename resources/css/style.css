@@ -473,13 +473,14 @@ footer a {
 
 @media screen and (max-width: 800px)
 {
-        #hero-wrapper,
+
 #skills-wrapper,
 #projects-wrapper,
 #about-wrapper
 {
     min-height: auto;
 }
+
 
     .nav-item
     {
