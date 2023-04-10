@@ -86,7 +86,7 @@ p
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding:  0 15px;
+    padding:  50px 15px;
 }
 
 #hero-wrapper
@@ -491,10 +491,7 @@ footer a {
         gap: 20px;
     }
 
-    #hero
-    {
-        padding: 0;
-    }
+   
 
     #hero,
     #skills,
