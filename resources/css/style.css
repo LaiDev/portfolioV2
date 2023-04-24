@@ -1,3 +1,5 @@
+
+
 html
 {
     font-size: 10px;
@@ -28,7 +30,7 @@ nav
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px 30px;
     color: rgb(0, 0, 0);
     font-size: 2rem;
     font-weight: bold;
@@ -154,7 +156,7 @@ h3
 #projects-wrapper,
 #about-wrapper
 {
-
+    
     min-height: 100vh;
     display: flex;
     justify-content: center;
