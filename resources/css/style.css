@@ -503,11 +503,14 @@ footer a {
     {
         margin: 0 50px;
     }
-
     
+    
+
+
     .project-card
     {
         width: 100%;
+        text-align: center;
     }
     .project-card-live-link,
     .project-card-code-btn
@@ -540,6 +543,8 @@ footer a {
         margin: 0 10px;
     }
 
+
+
     #hero h1
     {
         font-size: 5rem;
@@ -558,6 +563,8 @@ footer a {
     {
         width: 100%;
     }
+
+    
 
     .experience-details,
     .experience-details-position
