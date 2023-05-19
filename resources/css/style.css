@@ -84,17 +84,17 @@ p
 
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding:  50px 15px;
+    padding:  50px 0;
 }
 
 #hero-wrapper
 {
     background-color: rgba(186, 235, 255, 0.418);
 }
+
 
 #hero h1
 {
@@ -112,11 +112,22 @@ h2
     margin: 20px 0;
 }
 
+
+
+#hero p 
+{
+    width: 80%;
+}
+
 .social-links
 {
     margin-top: 20px;
     display: flex;
     gap: 20px;
+
+    align-items: center;
+    justify-content: center;
+
 }
 
 /* This is a wrapper to keep the sections at max 1080px */
@@ -427,6 +438,8 @@ footer a {
     {
         background-color: #f9f9f9;
     }
+
+   
 
 #hero-wrapper,
 #skills-wrapper,
