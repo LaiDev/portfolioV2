@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito+Sans&display=swap');
 
 html
 {
@@ -10,6 +10,22 @@ html
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Noto Serif', serif;
+}
+
+p,
+a
+{
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 /* Nav Bar */
@@ -33,7 +49,7 @@ nav
     padding: 15px 30px;
     color: rgb(0, 0, 0);
     font-size: 2rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
@@ -478,6 +494,11 @@ footer a {
         text-align: center;
         display: block;
     }
+
+    .project-button-wrapper
+{
+    width: 100%;
+}
 
     .project-card-live-link
     {
